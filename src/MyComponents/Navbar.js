@@ -10,28 +10,27 @@ export default function Navbar(props) {
 	const navbarContainerRef = useRef(null);
 
 	const handleIsOpen = useCallback(() => {
-		// if (window.innerWidth < 992) {
-			setIsOpen((prev) => !prev);
-			if (navbarRef.current) {
-				const collapseInstance = new window.bootstrap.Collapse(
-					navbarRef.current,
-					{
-						toggle: false,
-					}
-				);
-				isOpen ? collapseInstance.hide() : collapseInstance.show();
-			}
-		// }
+		setIsOpen((prev) => !prev);
+		if (navbarRef.current) {
+			const collapseInstance = new window.bootstrap.Collapse(
+				navbarRef.current,
+				{
+					toggle: false,
+				}
+			);
+			isOpen ? collapseInstance.hide() : collapseInstance.show();
+		}
 	}, [isOpen]);
 
 	const handleLinkClick = () => {
 		if (window.innerWidth < 992) {
-		if (navbarRef.current) {
-			const collapseInstance = new window.bootstrap.Collapse(
-				navbarRef.current
-			);
-			collapseInstance.hide();
-		}}
+			if (navbarRef.current) {
+				const collapseInstance = new window.bootstrap.Collapse(
+					navbarRef.current
+				);
+				collapseInstance.hide();
+			}
+		}
 	};
 
 	useEffect(() => {

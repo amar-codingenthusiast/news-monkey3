@@ -98,6 +98,7 @@ export default function News(props) {
 						justifyContent: "center",
 						alignItems: "center",
 						color: "red",
+						textAlign: "center"
 					}}
 				>
 					<h3>Error: {error}</h3>

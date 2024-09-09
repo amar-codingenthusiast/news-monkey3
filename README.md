@@ -1,12 +1,12 @@
 # News Monkey
 
-News Monkey is a React app that utilizes the [News API](https://gnews.io/) to fetch and display top headlines from various news categories.
+News Monkey is a React app that utilizes the [GNews API](https://gnews.io/) to fetch and display top headlines from various news categories.
 
 ## Project Acknowledgment
 ### TEN News App – Created and Maintained by me
 This project, News Monkey, was initially developed by me as a personal project. It is now utilized by TEN Company, which has integrated it into their news services. I take full credit for the development and deployment of this application.
 
-The live version of the TEN News app can be accessed [here](https://ten-news.vercel.app).<br/>
+The live version of the TEN News app can be accessed [here](https://ten-news-vert.vercel.app).<br/>
 And The live version of the News Monkey app can be accessed [here](https://amar-codingenthusiast.github.io/news-monkey3).
 
 ## Getting Started
@@ -31,7 +31,7 @@ To get a local copy up and running, follow these simple steps.
    npm install
 4. Run the app:
    ```sh
-   npm run start
+   npm start
 5. Open your browser and visit http://localhost:3000 to view the app.
 
 ## Features
